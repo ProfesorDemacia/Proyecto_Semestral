@@ -1,0 +1,29 @@
+
+.body {
+    width:1000px;
+    margin: 0px auto;
+
+}
+
+/*.carousel-item{
+    height: auto;
+    
+}*/
+
+html{
+    margin: 0;
+}
+
+.dropdown{
+    padding: 50px 0;
+}
+
+.carousel-ejemplo{
+    height: 500px;
+    width:1650px;
+    justify-content: center;
+padding: 10px 300px;
+padding-left: 100px;
+
+}
+
