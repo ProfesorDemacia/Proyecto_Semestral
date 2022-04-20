@@ -34,7 +34,10 @@ html{
 
 .container-fluid  {
     justify-content: center;
-    padding-top: 10px auto;
+    padding-left: 400px;
+    padding-top: 20px auto;
+   
+    ;
   
 
 }
