@@ -35,35 +35,97 @@
           </ul>
       </nav>
       <img src ="Imagenes/logo3.png" width="150">
-      <section class="centro" >
-        <table >
-          <form action="">
-            <tr>
-              <td><h4>Correo Electronico</h4></td>
-              <td><input class="input clearfix" type="email" id="txt_correo" name="txt_correo" required></td>
-            </tr>
-            <tr>
-              <td><h4>Contraseña</h4></td>
-              <td><input type="password" id="txt_contraseña" name="txt_contraseña" class="input" required></td>
-            </tr>
-            <tr>
-              <td><h4>Fecha de nacimiento</h4></td>
-              <td><input type="date" id="date_fechnac" name="fechna" required class="input"></td>
-            </tr>
-            <tr>
-              <td><h4>Pais</h4></td>
-              <td><input type="text" id="txt_pais" name="txt_pais" class="input"></td>
-            </tr>
-            <tr>
-              <td><input type="checkbox" id="chk_contrato" name="chk_contrato">He leido y acepto los <a class ="link input" href="">Terminos y  condiciones</a></td>
-            </tr>
-            <tr>
-              <td><input type="submit" id="bt_enviar"></td>
-            </tr>
-          </form>
-        </table>
+    <section class="container" >
+      <div class="row">
+      	<form class="formulario ">
+          <div class="form-group input-group">
+            <div class="input-group-prepend">
+             </div>
+                <input name="nombre_registro" class="form-control" placeholder="Nombre completo" type="text"  required>
+            </div> 
+            <br><!-- form-group// -->
+            <div class="form-group input-group">
+              <div class="input-group-prepend">
+             </div>
+                <input name="email_registro" class="form-control" placeholder="Correo Electronico" type="email" required>
+            </div>
+            <br> <!-- form-group// -->
+            <div class="form-group input-group">
+              <div class="input-group-prepend">
+            </div>
+            <select class="custom-select" style="max-width: 120px;">
+                <option selected="">+971</option>
+                <option value="1">+972</option>
+                <option value="2">+569</option>
+                <option value="3">+701</option>
+            </select>
+              <input name="txt_nro" class="form-control" placeholder="Numero de telefono" type="text"  required>
+            </div> 
+            <br><!-- form-group// -->
+            <div class="form-group input-group">
+              <div class="input-group-prepend">
+            </div>
+            <select class="form-control">
+              <option selected=""> Seleccione su ocupación</option>
+              <option>Trabajador dependiente</option>
+              <option>Trabajador independiente</option>
+              <option>No me encuentro trabajando</option>
+            </select>
+          </div> 
+          <br><!-- form-group end.// -->
+            <div class="form-group input-group">
+              <div class="input-group-prepend">
+            </div>
+                <input name="pass_registro" class="form-control" placeholder="Contraseña" type="password" required>
+            </div> 
+            <br><!-- form-group// -->
+            <div class="form-group input-group">
+              <div class="input-group-prepend">
+            </div>
+                <input name="pass_repit_registro" id="pass_repit_registro" class="form-control" placeholder="Repita la Contraseña" type="password"  required>
+            </div> 
+            <br><!-- form-group// -->                                      
+            <div class="form-group">
+                <button type="submit" id="sb_crear" name="sb_crear" class="btn btn-primary btn-block"> Crear Cuenta  </button>
+            </div> 
+            <br><!-- form-group// -->      
+            <p class="text-center">Ya tienes cuenta? <a href="login.html">Ingresa</a> </p>                                                                 
+        </form>
+
+      </div>
+       
      
     </section>
+    <footer class="footer1">
+      <div class="container">
+        <div class="row  text-xs-center text-sm-left text-md-left">
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h4>Servicios</h4>
+            <ul>
+            <li><h6><a href="contacto.html">Contactanos</a></h6></li>
+            <li><h6><a href="">Equipo</a></h6></li>
+            <li><h6><a href="">Nuestros Locales</a></h6></li>
+            </ul>
+          </div>
+          <div class="ol-xs-12 col-sm-4 col-md-4">
+            <h4>Quienes Somos</h4>
+            <ul>
+              <li><h6><a href="">Nuestra Historia</a></h6></li>
+              <li><h6><a href="">Politicas</a></h6></li>
+              <li><h6><a href="">Preguntas Frecuentes</a></h6></li>
+              </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h4>Redes Sociales</h4>
+            <ul>
+            <li><h6><a href="https://www.youtube.com/watch?v=mCdA4bJAGGk">Youtube</a></h6></li>
+            <li><h6><a href="">Twitter</a></h6></li>
+            <li><h6><a href="">Instagram</a></h6></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
     
     
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

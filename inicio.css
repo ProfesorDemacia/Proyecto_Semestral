@@ -5,11 +5,24 @@
     background-color: blanchedalmond;
 
 }
+.footer1{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.footer2{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    left: 0;
 
-/*.carousel-item{
-    height: auto;
-    
-}*/
+}
 
 html{
     margin: 0;
@@ -27,12 +40,14 @@ html{
     padding-left: 100px;
 
 }
-table{
+.formulario{
     background-color: burlywood;
     margin: 0px auto;
-    width: 800px;
-    height: 250px;
-    text-align: left;
+    width: 0px auto;
+    height: 0px auto;
+    text-align: center;
+    padding: 30px;
+    display: block;
 }
 
 nav{
@@ -42,28 +57,37 @@ nav{
     padding: 10px;
     text-align: justify;
 }
-.centro{
+.centro_bloque{
     display: block;
     margin: 0px auto;
+    
+}
+.centro_texto{
+    text-align: center;
 }
 .input{
     width: 260px;
     height: 32px;
     text-align: left;
 }
-td{
-    padding: 20px;
-}
 .texto_titulo{
     color: blue;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.clearfix{
-    clear: both;
+div{
     display: block;
+}
+
+col-sm-2{
+    width: 16px;
 }
 .link{
     color: darkgreen;
     text-decoration: none;
+}
+
+.boton_enviar{
+    width: 100px; 
+    height: 35px;
 }
