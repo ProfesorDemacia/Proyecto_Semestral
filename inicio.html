@@ -1,99 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="inicio.css"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="inicio.css" />
 </head>
-<body class="container0">
+
+<body>
 
   <nav>
     <ul class="nav nav-pills justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Productos</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="producto_categoria.html">Categoria</a></li>
-            <li><a class="dropdown-item" href="producto_artista.html">Artista</a></li>
-          </ul>
-        </li>
-        <li class="nav-item" >
-          <a class="nav-link" href="galeria.html">Galeria</a>
-        </li>
-        <li class="nav-item justify-content-end">
-          <a class="nav-link justify-content-end" href="login.html">Login</a>
-        </li>
-        <li class="nav-item justify-content-end">
-            <a class="nav-link justify-content-end" href="registro.html">Registro</a>
-          </li>
-      </ul>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+          aria-expanded="false">Productos</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="producto_categoria.html">Categoria</a></li>
+          <li><a class="dropdown-item" href="producto_artista.html">Artista</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="galeria.html">Galeria</a>
+      </li>
+      <li class="nav-item justify-content-end">
+        <a class="nav-link justify-content-end" href="login.html">Login</a>
+      </li>
+      <li class="nav-item justify-content-end">
+        <a class="nav-link justify-content-end" href="registro.html">Registro</a>
+      </li>
+    </ul>
   </nav>
 
 
 
   <!--aqui va el logo de la cooperativa -->
-  <div class="row col-12">  
-    <div class="logo" >
-      <img src ="Imagenes/descarga (2).jpg" width="300">
+<div class="container-fluid">
+  <div class="row">
+    <div class="logo">
+      <img src="Imagenes/descarga (2).jpg" width="300">
     </div>
   </div>
-      
+</div>
+
   <!-- aqui va el buscador -->
   <form class="d-flex">
+    <div class="dropdown1">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Categorias
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Nombre Artista</a></li>
+        <li><a class="dropdown-item" href="#">Tipo Arte</a></li>
+        <li><a class="dropdown-item" href="#">Concepto</a></li>
+      </ul>
+    </div>
     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
     <button class="btn btn-outline-success" type="submit">Search</button>
   </form>
-  
-  
-  <!--aqui va el boton que desgloza las categorias -->
-  <div class="= row clo-12"> 
-    <div class="dropdown1">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-      Categorias
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-      <li><a class="dropdown-item" href="#">Nombre Artista</a></li>
-      <li><a class="dropdown-item" href="#">Tipo Arte</a></li>
-      <li><a class="dropdown-item" href="#">Concepto</a></li>
-      </ul>
-    </div>
-  </div> 
-  <!--aqui va el carrusel con las fotos más importantes de la tienda -->   
 
-  <section class="container-fluid">
+
+  <!--aqui va el carrusel con las fotos más importantes de la tienda -->
+
+  <section class="container-fluid p-0 mb-5">
 
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="justify-content-end ">
           <div class="carousel-item active">
             <a href="La fábula de Aracne.html">
-            <img src="Imagenes/imagenescarrucel/img1carruchiquita.jpg" class="d-block w-100" alt="img1"  height="700">
+              <img src="Imagenes/imagenescarrucel/img1carruchiquita.jpg" class="d-block w-100" alt="img1" height="700">
             </a>
             <div class="carousel-caption d-none d-md-block">
-              <h1>La fábula de Aracne  </h1>
+              <h1>La fábula de Aracne </h1>
             </div>
           </div>
           <div class="carousel-item">
             <a href="ola.html">
-            <img src="Imagenes/imagenescarrucel/img2carruchiqui.jpg" class="d-block w-100" alt="img2"  height="700">
+              <img src="Imagenes/imagenescarrucel/img2carruchiqui.jpg" class="d-block w-100" alt="img2" height="700">
             </a>
             <div class="carousel-caption d-none d-md-block">
-              <h1> La gran ola de Kanagawa</h1>                    
+              <h1> La gran ola de Kanagawa</h1>
             </div>
           </div>
           <div class="carousel-item">
             <a href="Ojo de mujer.html">
-            <img src="Imagenes/imagenescarrucel/img3carruchiqui.jpg" widht="100" alt="img3"  height="700">
+              <img src="Imagenes/imagenescarrucel/img3carruchiqui.jpg" widht="100" alt="img3" height="700">
             </a>
             <div class="carousel-caption d-none d-md-block">
               <h1>Ojo de mujer </h1>
@@ -101,163 +108,174 @@
           </div>
         </div>
       </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Atrás</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Atrás</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
     </div>
   </section>
-
-
-
-
-  <!-- noticias -->
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  
-
   <div>
+
+  </div>
+  <section class="container">
     <h2>NOVEDADES</h2>
-  </div>
-
-  <div class="row row-cols-1 row-cols-md-3 g-4" >
-    <div class="col">
-      <div class="card h-100">
-        <a href="orfebreria.html">
-          <img src="Imagenes/imagenesnovedades/Orfebreria-1.jpg" class="card-img-top" alt="...">
-        </a>
-        <div class="card-body">
-          <h5 class="card-title">ORFEBRERÍA</h5>
-          <p class="card-text">La orfebrería es el arte y la técnica de trabajar metales preciosos como el oro o la plata, para hacer utensilios, adornos o joyas. Su cultor es el orfebre, quien tiene conocimientos técnicos que le permiten trabajar con materiales como metales, piedras, soldaduras, fuego, agua y otros elementos. La orfebrería ha estado presente en todas las culturas donde hay metales disponibles. Y, como tal, al ser un territorio rico en metales, en Chile la artesanía tradicional ha desarrollado la orfebrería principalmente en plata y cobre. </p>
+    <div class="row">
+      <div class="col">
+        <div class="card h-100">
+          <a href="orfebreria.html">
+            <img src="Imagenes/imagenesnovedades/Orfebreria-1.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">ORFEBRERÍA</h5>
+            <p class="card-text">La orfebrería es el arte y la técnica de trabajar metales preciosos como el oro o la
+              plata, para hacer utensilios, adornos o joyas. Su cultor es el orfebre, quien tiene conocimientos técnicos
+              que le permiten trabajar con materiales como metales, piedras, soldaduras, fuego, agua y otros elementos.
+              La orfebrería ha estado presente en todas las culturas donde hay metales disponibles. Y, como tal, al ser
+              un territorio rico en metales, en Chile la artesanía tradicional ha desarrollado la orfebrería
+              principalmente en plata y cobre. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Imagenes/imagenesnovedades/telas.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TELAS</h5>
+            <p class="card-text">¿Necesitas un tejido para actualizar los muebles de tu hogar? ¿Para renovar tu fondo de
+              armario? ¿O para confeccionar un nuevo traje de baile? no te preocupes, porque tenemos lo que andabas
+              buscando! </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Imagenes/carrusel1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Exposición de cuadros y galería de arte</h5>
+            <p class="card-text">En nuestra galería también puedes comprar una selección de cuadros originales, obras
+              únicas y exclusivas con valor artístico. Si quieres adquirir un cuadro valioso, dar un toque distinguido a
+              las o regalar un presente inolvidable, seguro que encontrarás algo apropiado dentro de nuestra exposición.
+              Si no encuentras lo que quieres, siempre tienes la posibilidad de encargar un óleo personalizado.</p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="Imagenes/imagenesnovedades/telas.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">TELAS</h5>
-          <p class="card-text">¿Necesitas un tejido para actualizar los muebles de tu hogar? ¿Para renovar tu fondo de armario? ¿O para confeccionar un nuevo traje de baile? no te preocupes, porque tenemos lo que andabas buscando! </p>
-        </div>
-      </div>
+    <div>
+      <i>
+        <h2>ARTISTAS DESTACADOS </h2>
+      </i>
     </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="Imagenes/carrusel1.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Exposición de cuadros y galería de arte</h5>
-          <p class="card-text">En nuestra galería también puedes comprar una selección de cuadros originales, obras únicas y exclusivas con valor artístico. Si quieres adquirir un cuadro valioso, dar un toque distinguido a las o regalar un presente inolvidable, seguro que encontrarás algo apropiado dentro de nuestra exposición. Si no encuentras lo que quieres, siempre tienes la posibilidad de encargar un óleo personalizado.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  
-
-  <div>
-    <i><h2>ARTISTAS DESTACADOS </h2></i>
-  </div>
-
-  <div class="row row-cols-1 row-cols-md-3 g-4" >
-    <div class="col">
-      <div class="card h-100">
-        <a href="Rosell Meseguer.html">
-          <img src="Imagenes/imagenesartistas/imgrosell.jpg" class="card-img-top" alt="...">
-        </a> 
-        <div class="card-body">
-          <h2 class="card-title">Rosell Meseguer</h2>
-          <h5><br>Premios ganados :</h5>
-          <p class="card-text">
+    <div class="row">
+      <div class="col">
+        <div class="card h-100">
+          <a href="Rosell Meseguer.html">
+            <img src="Imagenes/imagenesartistas/imgrosell.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <h2 class="card-title">Rosell Meseguer</h2>
+            <h5><br>Premios ganados :</h5>
+            <p class="card-text">
             <ul>
-              <li>   Premios ganados:XIV Premio de Artes Plásticas La Rural</li>
-              <li>   CONVOCATORIA CULTURA ONLINE #CMCVaCasa</li>
-              <li>   X Premio Bienal Internacional de Fotografía Contemporánea Pilar Citoler 2019.</li>
+              <li> Premios ganados:XIV Premio de Artes Plásticas La Rural</li>
+              <li> CONVOCATORIA CULTURA ONLINE #CMCVaCasa</li>
+              <li> X Premio Bienal Internacional de Fotografía Contemporánea Pilar Citoler 2019.</li>
             </ul>
-          </p>
-          <h5>Exposiciones colectivas vigentes: <br> </h5>
-          <p class="card-text">
+            </p>
+            <h5>Exposiciones colectivas vigentes: <br> </h5>
+            <p class="card-text">
             <ul>
               <li>Devolver el fuego</li>
             </ul>
-          </p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="ArtistaAna.html">
+            <img src="Imagenes/imagenesartistas/imgAnaLauraAlaez.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <h2 class="card-title">Ana Laura Aláez</h2>
+            <h5><br>Premios ganados :</h5>
+            <p class="card-text">
+            <ul>
+              <li> Becas Multiverso a la Creación en Videoarte - Fundación BBVA - 2018</li>
+              <li> Premios Gure Artea 2013</li>
+            </ul>
+            </p>
+            <h5>Exposiciones colectivas vigentes: <br> </h5>
+            <p class="card-text">
+            <ul>
+              <li> Narcohumanisme. Farmàcies i estupefaents a les pràctiques artístiques actuals.</li>
+              <li> Escultura expandida</li>
+            </ul>
+            </p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col">
-      <div class="card h-100">
-        <a href="ArtistaAna.html">
-          <img src="Imagenes/imagenesartistas/imgAnaLauraAlaez.jpg" class="card-img-top" alt="...">
-        </a>
-        <div class="card-body">
-          <h2 class="card-title">Ana Laura Aláez</h2>
-          <h5><br>Premios ganados :</h5>
-          <p class="card-text">
-            <ul>
-              <li>   Becas Multiverso a la Creación en Videoarte - Fundación BBVA - 2018</li>
-              <li>   Premios Gure Artea 2013</li>
-            </ul>
-          </p>
-          <h5>Exposiciones colectivas vigentes: <br> </h5>
-          <p class="card-text">
-            <ul>
-              <li>   Narcohumanisme. Farmàcies i estupefaents a les pràctiques artístiques actuals.</li>
-              <li>   Escultura expandida</li>
-            </ul>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
 
-
-<footer class="footer1">
-  <div class="container footer">
-    <div class="row  text-xs-center text-sm-left text-md-left">
-      <div class="col-xs-12 col-sm-4 col-md-4">
-        <h4>Servicios</h4>
-        <ul>
-        <li><h6><a href="contacto.html">Contactanos</a></h6></li>
-        <li><h6><a href="">Equipo</a></h6></li>
-        <li><h6><a href="">Nuestros Locales</a></h6></li>
-        </ul>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-4">
-        <h4>Quienes Somos</h4>
-        <ul>
-          <li><h6><a href="">Nuestra Historia</a></h6></li>
-          <li><h6><a href="">Politicas</a></h6></li>
-          <li><h6><a href="">Preguntas Frecuentes</a></h6></li>
+  <footer class="footer1">
+    <div class="container footer">
+      <div class="row  text-xs-center text-sm-left text-md-left">
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h4>Servicios</h4>
+          <ul>
+            <li>
+              <h6><a href="contacto.html">Contactanos</a></h6>
+            </li>
+            <li>
+              <h6><a href="">Equipo</a></h6>
+            </li>
+            <li>
+              <h6><a href="">Nuestros Locales</a></h6>
+            </li>
           </ul>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-4">
-        <h4>Redes Sociales</h4>
-        <ul>
-        <li><h6><a href="https://www.youtube.com/watch?v=mCdA4bJAGGk">Youtube</a></h6></li>
-        <li><h6><a href="">Twitter</a></h6></li>
-        <li><h6><a href="">Instagram</a></h6></li>
-        </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h4>Quienes Somos</h4>
+          <ul>
+            <li>
+              <h6><a href="">Nuestra Historia</a></h6>
+            </li>
+            <li>
+              <h6><a href="">Politicas</a></h6>
+            </li>
+            <li>
+              <h6><a href="">Preguntas Frecuentes</a></h6>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h4>Redes Sociales</h4>
+          <ul>
+            <li>
+              <h6><a href="https://www.youtube.com/watch?v=mCdA4bJAGGk">Youtube</a></h6>
+            </li>
+            <li>
+              <h6><a href="">Twitter</a></h6>
+            </li>
+            <li>
+              <h6><a href="">Instagram</a></h6>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-    
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
