@@ -21,9 +21,6 @@
             <li><a class="dropdown-item" href="producto_artista.html">Artista</a></li>
           </ul>
         </li>
-        <li class="nav-item" >
-          <a class="nav-link" href="galeria.html">Galeria</a>
-        </li>
         <li class="nav-item justify-content-end">
           <a class="nav-link justify-content-end" href="login.html">Login</a>
         </li>
@@ -32,21 +29,31 @@
           </li>
       </ul>
   </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="logo">
+        <img src="Imagenes/descarga (2).jpg" width="300">
+      </div>
+    </div>
+  </div>
+  
   <section class="container">
-    <div class="row formulario">
+    <div class="row formulario margen_arriba margen_abajo">
+        <h2 class="texto_titulo">Contactanos</h2>
         <div class="col-md-8 centro_bloque">
-            <form action="/post" method="post">
-            <input class="form-control" name="name" placeholder="Nombre Completo..." /><br />
-            <input type="number" class="form-control" name="phone" placeholder="Numero de telefono.." /><br />
-            <input type="email" class="form-control" name="email" placeholder="Correo Electronico..." /><br />
-            <textarea class="form-control" name="text" placeholder="How can we help you?" style="height:150px;"></textarea><br />
-            <input class="btn btn-primary" type="submit" value="Send" /><br /><br />
+            <form action="">
+            <input class="form-control" name="name" placeholder="Nombre Completo..." required /><br />
+            <input type="text" class="form-control" name="phone" placeholder="Numero de telefono.." required /><br />
+            <input type="email" class="form-control" name="email" placeholder="Correo Electronico..." required /><br />
+            <textarea class="form-control" name="text" placeholder="En que podemos ayudarte?" style="height:150px;" required></textarea><br />
+            <input class="btn btn-primary centro_bloque" type="submit" value="Enviar" /><br /><br />
             </form>
         </div>
     </div>
 
   </section>
-  <footer class="footer2">
+  <footer class="footer1">
     <div class="container footer">
       <div class="row  text-xs-center text-sm-left text-md-left">
         <div class="col-xs-12 col-sm-4 col-md-4">

@@ -76,6 +76,25 @@ html{
     display: block;
 }
 
+.login_diseño{
+    background-color: burlywood;
+    margin: 0px auto;
+    width: 35%;
+    height: 0px auto;
+    padding: 30px;
+    display: block;
+}
+.registro_diseño{
+    background-color: burlywood;
+    margin: 0px auto;
+    width: 60%;
+    height: 0px auto;
+    padding: 30px;
+    display: block;
+    justify-content: center;
+
+}
+
 nav{
     background-color: black;
     color: aliceblue;
@@ -96,10 +115,15 @@ nav{
     height: 32px;
     text-align: left;
 }
+.input_largo{
+    width: 360px;
+    height: 32px;
+    display: block;
+}
 .texto_titulo{
     color: blue;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
 }
 div{
     display: block;
@@ -112,7 +136,13 @@ col-sm-2{
     color: darkgreen;
     text-decoration: none;
 }
+.margen_abajo{
+    margin-bottom: 50px;
+}
 
+.margen_arriba{
+    margin-top: 50px;
+}
 
 
 /** Css del html la fabula de Aracne**/

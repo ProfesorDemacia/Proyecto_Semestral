@@ -23,9 +23,6 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="galeria.html">Galeria</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link derecha" href="login.html">Login</a>
             </li>
             <li class="nav-item">
@@ -34,66 +31,76 @@
 
           </ul>
       </nav>
-      <img src ="Imagenes/logo3.png" width="150">
+    
+      <div class="container-fluid">
+        <div class="row">
+          <div class="logo">
+            <img src="Imagenes/descarga (2).jpg" width="300">
+          </div>
+        </div>
+      </div>
+
     <section class="container" >
       <div class="row">
-      	<form class="formulario ">
-          <div class="form-group input-group">
-            <div class="input-group-prepend">
-             </div>
-                <input name="nombre_registro" class="form-control" placeholder="Nombre completo" type="text"  required>
-            </div> 
-            <br><!-- form-group// -->
-            <div class="form-group input-group">
-              <div class="input-group-prepend">
-             </div>
-                <input name="email_registro" class="form-control" placeholder="Correo Electronico" type="email" required>
-            </div>
-            <br> <!-- form-group// -->
-            <div class="form-group input-group">
-              <div class="input-group-prepend">
-            </div>
-            <select class="custom-select" style="max-width: 120px;">
-                <option selected="">+971</option>
-                <option value="1">+972</option>
-                <option value="2">+569</option>
-                <option value="3">+701</option>
-            </select>
-              <input name="txt_nro" class="form-control" placeholder="Numero de telefono" type="text"  required>
-            </div> 
-            <br><!-- form-group// -->
-            <div class="form-group input-group">
-              <div class="input-group-prepend">
-            </div>
-            <select class="form-control">
-              <option selected=""> Seleccione su ocupación</option>
-              <option>Trabajador dependiente</option>
-              <option>Trabajador independiente</option>
-              <option>No me encuentro trabajando</option>
-            </select>
-          </div> 
-          <br><!-- form-group end.// -->
-            <div class="form-group input-group">
-              <div class="input-group-prepend">
-            </div>
-                <input name="pass_registro" class="form-control" placeholder="Contraseña" type="password" required>
-            </div> 
-            <br><!-- form-group// -->
-            <div class="form-group input-group">
-              <div class="input-group-prepend">
-            </div>
-                <input name="pass_repit_registro" id="pass_repit_registro" class="form-control" placeholder="Repita la Contraseña" type="password"  required>
-            </div> 
-            <br><!-- form-group// -->                                      
+        <div class="col-md-12">
+          <form class="registro_diseño margen_abajo ">
             <div class="form-group">
-                <button type="submit" id="sb_crear" name="sb_crear" class="btn btn-primary btn-block"> Crear Cuenta  </button>
+              <div>
+              </div>
+                  <input name="nombre_registro" class="form-control input_largo " placeholder="Nombre completo" type="text"  required>
+              </div> 
+              <br><!-- form-group// -->
+              <div class="form-group">
+                <div >
+              </div>
+                  <input name="email_registro" class="form-control input_largo" placeholder="Correo Electronico" type="email" required>
+              </div>
+              <br> <!-- form-group// -->
+              <div class="form-group input-group">
+                <div>
+              </div>
+              <select class="custom-select input_largo" style="max-width: 120px;">
+                  <option selected="">+971</option>
+                  <option value="1">+972</option>
+                  <option value="2">+569</option>
+                  <option value="3">+701</option>
+              </select>
+                <input name="txt_nro" class="form-control input_largo" placeholder="Numero de telefono" type="text"  required>
+              </div> 
+              <br><!-- form-group// -->
+              <div class="form-group">
+                <div>
+              </div>
+              <select class="form-control input_largo">
+                <option selected=""> Seleccione su ocupación</option>
+                <option>Trabajador dependiente</option>
+                <option>Trabajador independiente</option>
+                <option>No me encuentro trabajando</option>
+              </select>
             </div> 
-            <br><!-- form-group// -->      
-            <p class="text-center">Ya tienes cuenta? <a href="login.html">Ingresa</a> </p>                                                                 
-        </form>
+            <br><!-- form-group end.// -->
+              <div class="form-group">
+                <div >
+              </div>
+                  <input name="pass_registro" class="form-control input_largo" placeholder="Contraseña" type="password" required>
+              </div> 
+              <br><!-- form-group// -->
+              <div class="form-group">
+                <div>
+              </div>
+                  <input name="pass_repit_registro" id="pass_repit_registro" class="form-control input_largo" placeholder="Repita la Contraseña" type="password"  required>
+              </div> 
+              <br><!-- form-group// -->                                      
+              <div class="form-group centro_bloque centro_texto">
+                  <button type="submit" id="sb_crear" name="sb_crear" class="btn btn-primary btn-block"> Crear Cuenta  </button>
+              </div> 
+              <br><!-- form-group// -->      
+              <p class="text-center">Ya tienes cuenta? <a href="login.html">Ingresa</a> </p>                                                                 
+          </form>
+      </div>
 
       </div>
-       
+      
      
     </section>
     <footer class="footer1">

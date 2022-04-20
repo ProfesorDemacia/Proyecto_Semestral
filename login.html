@@ -21,9 +21,6 @@
             <li><a class="dropdown-item" href="producto_artista.html">Artista</a></li>
           </ul>
         </li>
-        <li class="nav-item" >
-          <a class="nav-link" href="galeria.html">Galeria</a>
-        </li>
         <li class="nav-item justify-content-end">
           <a class="nav-link active justify-content-end" href="login.html">Login</a>
         </li>
@@ -32,21 +29,29 @@
           </li>
       </ul>
   </nav>
-  <img src ="Imagenes/logo3.png" width="150">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="logo">
+        <img src="Imagenes/descarga (2).jpg" width="300">
+      </div>
+    </div>
+  </div>
 <section class="container" >
-    <div class="row formulario"> 
-      <form action="">
-      <div class="mb-3 centro_texto">
-        <label for="exampleFormControlInput1" class="form-label centro_bloque">Correo Electronico</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
+    <div class="row login_diseño"> 
+      <div>
+        <form action="">
+        <div class="mb-3 centro_texto">
+          <label for="exampleFormControlInput1" class="form-label centro_bloque">Correo Electronico</label>
+          <input type="email" class="form-control input centro_bloque" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
+        </div>
+        <div class="mb-3 centro_texto centro bloque">
+          <label for="exampleFormControlTextarea1" class="form-label" >Contraseña</label>
+          <input type="password" class="form-control input centro_bloque" id="pass_login" name="pass_login" placeholder="********" required>
+        </div>
+        <input type="submit" class="btn btn-primary btn-block boton_enviar centro_bloque" required>
+        <a href="registro.html" class="centro_texto centro_bloque">¿No tienes cuenta? ¡Registrate aca!</a>
+        </form>
       </div>
-      <div class="mb-3 centro_texto">
-        <label for="exampleFormControlTextarea1" class="form-label centro_bloque" >Contraseña</label>
-        <input type="password" class="form-control" id="pass_login" name="pass_login" placeholder="********" required>
-      </div>
-      <input type="submit" class="btn btn-primary btn-block boton_enviar centro_bloque" required>
-      <a href="registro.html" class="centro_texto">¿No tienes cuenta? ¡Registrate aca!</a>
-    </form>
     </div>
 </section>
 <footer class="footer2">
