@@ -53,7 +53,6 @@ html{
     margin: 0px auto;
     width: 0px auto;
     height: 0px auto;
-    text-align: center;
     padding: 30px;
     display: block;
 }
@@ -117,4 +116,11 @@ col-sm-2{
 .boton_enviar{
     width: 100px; 
     height: 35px;
+}
+
+.texto_right{
+    text-align: right;
+}
+.fot_artista{
+    width: 150px;
 }

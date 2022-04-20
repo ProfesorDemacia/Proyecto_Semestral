@@ -35,15 +35,114 @@
       <img src ="Imagenes/logo3.png" width="150">
       <section class="container">
         <div class="row">
-          <h3>Artistas</h3>
-          <div>
-
+          
+          <div class="col-md-3 col-xs-12">
+            <h3 class="centro_texto">Artista</h3>
+          
+            <ul>
+              <li>
+                <input class="form-control" name="txt_buscar_artista" placeholder="¿Que esta buscando?" /><br>
+              </li>
+              <li>
+                <select class="" data-style="btn-info" >
+                <option selected>Seleccione Genero</option>
+                <option>Mustard</option>
+                <option>Ketchup</option>
+                <option>Relish</option>
+                </select>
+              </li><br>
+              <li>
+                <select class="" data-style="btn-info">
+                  <option selected>Tipo de Arte</option>
+                  <option>Arte de Accion</option>
+                  <option>Arte Digital</option>
+                  <option>Arte en vivo</option>
+                  <option>Arte sonoro</option>
+                  <option>Arte Urbano</option>
+                  <option>Artes graficos</option>
+                  <option>Artesania</option>
+                  <option>Cine</option>
+                  <option>Criptoarte</option>
+                  <option>Diseño Grafico</option>
+                  </select>
+              </li><br>
+              <li>
+                <input type="number" class="form-control" name="txt_pais" placeholder="Pais de Origen">
+              </li>
+            </ul>
           </div>
+          <div class="col-md-9 col-xs-12">
+            <div class="row">
+              <div class="col-xs-12 col-md-7">
+                <label for="txt_artistas" class="">Artistas</label>
+              </div>
+              <div class="col-xs-12 col-md-5">
+                <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                  <option selected>Mas relevantes></option>
+                  <option value="1">Populares</option>
+                  <option value="2">Alfabético</option>
+                  <option value="3">Mas premiado</option>
+                </select>
 
-        </div> 
+              </div>
+            </div>
+            <div class="row">
+              <hr>
+              <h4>Destacados</h4>
+              <div class="col-md-12">
+                <div class="row formulario">
+                  
+                  <div class="col-md-2">
+                    <img class="img-fluid" src="Imagenes/Carmelo Esteban.png">
+
+                  </div>
+                  <div class="col-md-8 ">
+                    
+                    <h5>Artista</h5>
+                    <h4>Carmelo Esteban</h4>
+                    <h6>Nació en 1963 en Zaragoza, España. Reside en España</h6>
+
+                  </div>
+                  <div class="col-md-2">
+                    <h5 class="texto_right">Exposiciones</h5>
+                    <h5 class="texto_right">Obras</h5>
+
+
+                  </div>
+                </div>
+                <hr>
+                <div class="row formulario">
+                  
+                  <div class="col-md-2">
+                    <img class="img-fluid" src="Imagenes/Pablo Picasso.png">
+
+                  </div>
+                  <div class="col-md-8 ">
+                    
+                    <h5>Artista</h5>
+                    <h4>Pablo Picazzo</h4>
+                    <h6>Nació en 1881 en Malaga, España. Fallecio en 1973 en Mougins, Provence-Alpes-Cote d'Azur Francia</h6>
+
+                  </div>
+                  <div class="col-md-2">
+                    <h5 class="texto_right">Exposiciones</h5>
+                    <h5 class="texto_right">Obras</h5>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+            
+  
+          </div> 
+        
+
+        </div>
 
       </section>
-      <footer>
+      <footer class="footer1">
         <div class="container footer">
           <div class="row  text-xs-center text-sm-left text-md-left">
             <div class="col-xs-12 col-sm-4 col-md-4">
@@ -54,7 +153,7 @@
               <li><h6><a href="">Nuestros Locales</a></h6></li>
               </ul>
             </div>
-            <div class="ol-xs-12 col-sm-4 col-md-4">
+            <div class="col-xs-12 col-sm-4 col-md-4">
               <h4>Quienes Somos</h4>
               <ul>
                 <li><h6><a href="">Nuestra Historia</a></h6></li>
