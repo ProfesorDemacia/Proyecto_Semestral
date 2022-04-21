@@ -29,27 +29,49 @@
               </li>
           </ul>
       </nav>
-      <img src ="Imagenes/logo3.png" width="150">
+      
+      <div class="container-fluid">
+        <div class="row">
+          <div class="logo">
+            <img src="Imagenes/descarga (2).jpg" width="300">
+          </div>
+        </div>
+      </div>
+
+      <form class="d-flex margen_buscar px-5">
+        <div class="dropdown1">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Categorias
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Nombre Artista</a></li>
+            <li><a class="dropdown-item" href="#">Tipo Arte</a></li>
+            <li><a class="dropdown-item" href="#">Concepto</a></li>
+          </ul>
+        </div>
+        <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+
       <section class="container margen_abajo">
         <div class="row">
           
-          <div class="col-md-3 col-xs-12">
-            <h3 class="centro_texto">Artista</h3>
-          
-            <ul>
-              <li>
+          <div class="col-md-3 col-xs-12 ">
+            <h3 class="centro_texto ">Artista</h3>
+              <div class="borde_artista">
+            
                 <input class="form-control" name="txt_buscar_artista" placeholder="¿Que esta buscando?" /><br>
-              </li>
-              <li>
-                <select class="" data-style="btn-info" >
-                <option selected>Seleccione Genero</option>
-                <option>Masculino</option>
-                <option>Femenino</option>
-                <option>No definido</option>
+                <select class="form-control ">
+                  <option selected>Seleccione Genero</option>
+                  <option>Masculino</option>
+                  <option>Femenino</option>
+                  <option>No definido</option>
                 </select>
-              </li><br>
-              <li>
-                <select class="" data-style="btn-info">
+          
+                <br>
+
+                <select class="form-control" >
                   <option selected>Tipo de Arte</option>
                   <option>Arte de Accion</option>
                   <option>Arte Digital</option>
@@ -62,11 +84,12 @@
                   <option>Criptoarte</option>
                   <option>Diseño Grafico</option>
                   </select>
-              </li><br>
-              <li>
-                <input type="number" class="form-control" name="txt_pais" placeholder="Pais de Origen">
-              </li>
-            </ul>
+
+                  <br>
+
+                <input type="text" class="form-control" name="txt_pais" placeholder="Pais de Origen">
+              </div>
+              
           </div>
           <div class="col-md-9 col-xs-12">
             <div class="row">
@@ -83,7 +106,7 @@
 
               </div>
             </div>
-            <div class="row">
+            <div class="row borde_artista">
               <hr>
               <h4>Destacados</h4>
               <div class="col-md-12">
@@ -162,6 +185,25 @@
                   <div class="col-md-3">
                     <h5 class="texto_right">Exposiciones (20)</h5>
                     <h5 class="texto_right">Obras (50) </h5>
+                  </div>
+                </div>
+                <hr>
+                <div class="row formulario">
+                  
+                  <div class="col-md-2">
+                    <a href="cristina iglesias.html"><img class="img-fluid" src="Imagenes/imagenesartistas/imgcristina_iglesias.jpg"></a>
+
+                  </div>
+                  <div class="col-md-7 ">
+                    
+                    <h5>Artista</h5>
+                    <a href="cristina iglesias.html"><h4>Cristina Iglesiasz</h4></a>
+                    <h6>Nació en 1956 en San Sebastian, España, Reside en España, Escultora</h6>
+
+                  </div>
+                  <div class="col-md-3">
+                    <h5 class="texto_right">Exposiciones (18)</h5>
+                    <h5 class="texto_right">Obras (27) </h5>
                   </div>
                 </div>
 

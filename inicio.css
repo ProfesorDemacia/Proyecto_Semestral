@@ -173,3 +173,6 @@ col-sm-2{
 .fot_artista{
     width: 150px;
 }
+.borde_artista{
+    border: 2px dotted black;
+}
