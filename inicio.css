@@ -160,7 +160,8 @@ col-sm-2{
 }
 .borde_artista{
     border: 2px dotted black;
-    border-radius: 15px;
+    border-radius: 8px;
+    padding: 5px;
 }
 .borrar_formato{
     text-decoration: none;
